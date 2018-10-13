@@ -93,6 +93,7 @@ public class MainActivity extends AppCompatActivity {
         //比對
         for(int i=0;i<btnNumber.length;i++){
             if(view == btnNumber[i]){
+
                 //處理輸入了i鍵
                 inputValue.set(inputPoint, i);
                 input[inputPoint].setText("" + i);
